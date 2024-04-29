@@ -23,7 +23,7 @@ except ValueError :
     exit()
   
 try:
-    bonus = float(input("Agora, nos diga a porcentagemdo bônus recebido: "))  
+    bonus = float(input("Agora, nos diga a porcentagem do bônus recebido: "))  
     if bonus < 0:
         print("Digite um valor positivo para o bônus.")
 except ValueError:
