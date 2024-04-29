@@ -4,6 +4,7 @@
 # Escreva um programa que verifique esses campos e imprima "Dados válidos" se ambos 
 # forem positivos ou "Dados inválidos" caso contrário.
 
+
 quantidade = int(input("Informe a quantidade: "))
 preco = float(input("Informa o preço: "))
 
