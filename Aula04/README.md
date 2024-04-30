@@ -1,0 +1,1 @@
+Assuntos abordados: Typing, listas e dicionários.
