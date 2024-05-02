@@ -6,7 +6,6 @@ pessoa = {
     "Cargo": "Engenheiro de Dados",
     "Setor": "TI"
 }
-
 pessoa2 = {
     "Nome": "João",
     "Idade": 50,
@@ -14,9 +13,7 @@ pessoa2 = {
     "Setor": "Obras"
 }
 
-
 funcionarios = list()
-
 # Adicionando pessoas a lista de funcionários
 funcionarios.append(pessoa)
 funcionarios.append(pessoa2)
