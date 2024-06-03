@@ -1,10 +1,10 @@
-nome_valido = False
-salario_valido = False
-bonus_valido = False
+nome_valido: bool = False
+salario_valido: bool = False
+bonus_valido: bool = False
 
 while nome_valido is not True:
     try:
-        nome = input("Por favor, informe o seu nome: ")
+        nome: str = input("Por favor, informe o seu nome: ")
         if nome.isnumeric():
             raise ValueError("Você digitou um número.")
         
@@ -23,7 +23,7 @@ while nome_valido is not True:
 
 while salario_valido is not True:
     try:
-        salario = float(input("Por favor, nos informe o seu salário: "))
+        salario: float = float(input("Por favor, nos informe o seu salário: "))
         if salario < 0:
             print("Você passou o valor menor que zero.")
         else:
@@ -35,7 +35,7 @@ while salario_valido is not True:
 
 while bonus_valido is not True:  
     try:
-        bonus = float(input("Agora, nos diga a porcentagem do bônus recebido: "))  
+        bonus: float = float(input("Agora, nos diga a porcentagem do bônus recebido: "))  
         if bonus < 0:
             print("Digite um valor positivo para o bônus.")
         else:
@@ -45,7 +45,7 @@ while bonus_valido is not True:
         print("Entrada inválida para o bônus. Por favor, digite um número.")
         # exit()
 
-kpi = 1000 + salario * bonus
+kpi: float = 1000 + salario * bonus
 
 # #Usando a concatenação
 # print("Olá "+ nome +", o seu valor bônus foi de R$",kpi)
